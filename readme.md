@@ -1,4 +1,4 @@
-# IMPORTANT
+# Overview
 
 This implementation is based on the architecture described in the paper:
 
