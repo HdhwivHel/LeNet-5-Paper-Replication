@@ -41,6 +41,8 @@ python evaluate.py
 
 The notebook (`main.ipynb`) provides a **step-by-step implementation of LeNet-5** that is easier to follow and experiment with.
 
+Can be accessed at: https://colab.research.google.com/github/HdhwivHel/LeNet-5-Paper-Replication/
+
 The notebook includes:
 
 - Model construction
