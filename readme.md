@@ -1,5 +1,3 @@
-# Differences from Original LeNet-5 Paper
-
 This implementation is based on the architecture described in the paper:
 
 **Yann LeCun, Léon Bottou, Yoshua Bengio, Patrick Haffner — _Gradient-Based Learning Applied to Document Recognition_ (1998).**
@@ -50,6 +48,8 @@ The notebook includes:
 - A **Gradio demo interface** allowing users to draw digits and test the trained model interactively.
 
 ---
+
+# Differences from Original LeNet-5 Paper
 
 # 1. Architecture Differences
 
