@@ -5,6 +5,50 @@ This implementation is based on the architecture described in the paper:
 **Yann LeCun, Léon Bottou, Yoshua Bengio, Patrick Haffner — _Gradient-Based Learning Applied to Document Recognition_ (1998).**
 
 While the overall structure of the network is preserved, several simplifications and modern practices were used to make the implementation compatible with modern deep learning frameworks.
+This repository provides **two ways to interact with the LeNet-5 replication**:
+
+1. **Modular Python Implementation** – designed for reproducible experiments, training, and evaluation.
+2. **Interactive Notebook Version** – designed for easier exploration, visualization, and quick experimentation.
+
+---
+
+## 1. Modular Implementation
+
+The modular version is intended for **structured experiments and reproducibility**.  
+It separates the model, dataset handling, configuration, and training scripts.
+
+### Train the model
+
+```bash
+python train.py
+```
+
+Training parameters such as **epochs, batch size, and learning rate** can be modified in:
+
+```
+configs/config.yaml
+```
+
+### Evaluate the trained model
+
+```bash
+python evaluate.py
+```
+
+---
+
+## 2. Notebook Implementation
+
+The notebook (`main.ipynb`) provides a **step-by-step implementation of LeNet-5** that is easier to follow and experiment with.
+
+The notebook includes:
+
+- Model construction
+- Training loop
+- Evaluation
+- Visualization
+- A **Gradio demo interface** allowing users to draw digits and test the trained model interactively.
+---
 
 ---
 
