@@ -1,3 +1,5 @@
+#IMPORTANT
+
 This implementation is based on the architecture described in the paper:
 
 **Yann LeCun, Léon Bottou, Yoshua Bengio, Patrick Haffner — _Gradient-Based Learning Applied to Document Recognition_ (1998).**
@@ -51,7 +53,7 @@ The notebook includes:
 
 # Differences from Original LeNet-5 Paper
 
-# 1. Architecture Differences
+## 1. Architecture Differences
 
 | Component            | Original Paper                                               | This Implementation                          | Reason                                |
 | -------------------- | ------------------------------------------------------------ | -------------------------------------------- | ------------------------------------- |
@@ -62,7 +64,7 @@ The notebook includes:
 
 ---
 
-# 2. Training Differences
+## 2. Training Differences
 
 | Component              | Original Paper                                                              | This Implementation      | Reason                           |
 | ---------------------- | --------------------------------------------------------------------------- | ------------------------ | -------------------------------- |
@@ -73,7 +75,7 @@ The notebook includes:
 
 ---
 
-# 3. Input Preprocessing Differences
+## 3. Input Preprocessing Differences
 
 | Component       | Original Paper           | This Implementation          | Reason                     |
 | --------------- | ------------------------ | ---------------------------- | -------------------------- |
@@ -82,7 +84,7 @@ The notebook includes:
 
 ---
 
-# 4. Model Architecture (Identical Components)
+## 4. Model Architecture (Identical Components)
 
 Despite the differences above, the following key architectural properties remain identical:
 
