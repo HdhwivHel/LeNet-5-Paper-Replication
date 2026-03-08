@@ -48,7 +48,6 @@ The notebook includes:
 - Evaluation
 - Visualization
 - A **Gradio demo interface** allowing users to draw digits and test the trained model interactively.
----
 
 ---
 
