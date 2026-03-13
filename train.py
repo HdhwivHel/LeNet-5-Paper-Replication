@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.optim as optim
 
 from models.lenet5 import LeNet5
-from datasets.mnist import get_datasets
+from dataset.mnist import get_datasets
 import yaml
 
 with open("configs/config.yaml", "r") as f:
