@@ -20,7 +20,7 @@ def train():
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    train_dataset, test_dataset = get_datasets()
+    train_dataset, _ = get_datasets()
 
     train_loader = DataLoader(
         train_dataset,

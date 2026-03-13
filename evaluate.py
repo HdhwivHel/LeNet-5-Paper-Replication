@@ -2,7 +2,7 @@ import torch
 from torch.utils.data import DataLoader
 
 from models.lenet5 import LeNet5
-from datasets.mnist import get_datasets
+from dataset.mnist import get_datasets
 import os
 import yaml
 
@@ -10,7 +10,6 @@ with open("configs/config.yaml", "r") as f:
     config = yaml.safe_load(f)
 
 batch_size = config["testing"]["batch_size"]
-learning_rate = config["training"]["learning_rate"]
 workers = config["test dataset"]["num_workers"]
 
 
